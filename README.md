@@ -13,8 +13,12 @@ to be processed .
 Here is a simple usage of the function.
 
 Just subsititute the string for the directory you want analysed and add the meta tags 
+```bash
+$file = ""; // the directory to file
 
-
+$meta = bin2hex("Meta data"); // meta data
+```
+output will write the current file in open stream
 
 ## License
 
