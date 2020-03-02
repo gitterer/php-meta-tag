@@ -22,4 +22,4 @@ output will write the current file in open stream
 
 ## License
 
-php-meta-tag is open-sourced code licensed under the [MIT license](https://opensource.org/licenses/MIT)
+php-meta-tag is open-sourced licensed under the [MIT license](https://opensource.org/licenses/MIT)
