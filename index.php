@@ -1,6 +1,6 @@
 <?php
 //file directory
-$file = "volcanic.jpg";
+$file = "";
 $binary = fopen($file,'r');
 $size = filesize($file);
 $hex = "";
