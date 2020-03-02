@@ -1,14 +1,19 @@
 <?php
 
-$sourcefile = "a.vbproj";
+
+$sourcefile = "";
 $binary1 = fopen($sourcefile,'r');
 $size = filesize($sourcefile);
+$hex = "";
 if ($size < 1){
      die("Error");
 }
-$binary = fread($binary1,$size);
+   while (!feof($binary1)) {
+        $hexread = bin2hex(fread ($binary1 , 4 ));
+         $hex = $hex.$hexread ;
+    }
+
 fclose($binary1);
-$hex    = dechex(bindec($binary));
 echo $hex;
 
     
