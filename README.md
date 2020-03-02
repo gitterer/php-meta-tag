@@ -22,4 +22,4 @@ output will write the current file in open stream
 
 ## License
 
-Profanity Analysis is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT)
+php-meta-tag is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT)
