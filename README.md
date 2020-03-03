@@ -4,7 +4,7 @@ This project is essentially to allow meta tag to added to images.
 
 ## Why?
 
-This was an exercise on file structute using parse functionlity and extracting data segment from an image that allows the stream process
+Analysing file structute using parse functionlity and extracting data segment from an image that allows the stream process
 to be processed .
 
 
